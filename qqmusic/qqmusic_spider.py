@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Author: MediocrityXT
-# @Github: https://github.com/MediocrityXT
-
 
 import requests
 import execjs
@@ -21,7 +17,6 @@ class Spider(object):
         return response
 
     def __print_info(self, songs):
-        #打印搜索到的的歌曲信息
         index = 0
         for it in songs:
             index = index + 1
