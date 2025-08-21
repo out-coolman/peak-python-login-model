@@ -6,10 +6,10 @@ function __sign_hash_20200305 (n) {
     function r(n, t, o, e, u, p) {
         return l((i = l(l(t, n), l(e, p))) << (r = u) | i >>> 32 - r, o);
         var i, r
-    }
+    }  
     function g(n, t, o, e, u, p, i) {
         return r(t & o | ~t & e, n, t, u, p, i)
-    }
+    }  
     function a(n, t, o, e, u, p, i) {
         return r(t & e | o & ~e, n, t, u, p, i)
     }
